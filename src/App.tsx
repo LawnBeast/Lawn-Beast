@@ -7,7 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import Billing from './pages/Billing'
+import Billing from "./pages/billing";
+
 
 const queryClient = new QueryClient();
 
@@ -29,12 +30,4 @@ const App = () => (
       </TooltipProvider>
     </QueryClientProvider>
   </ThemeProvider>
-
-
-
-
-
-
-
-export default App;
-Visual Studio Code
+ ); export default App;
