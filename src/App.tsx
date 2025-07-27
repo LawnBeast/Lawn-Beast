@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Billing from './pages/Billing'
 
 const queryClient = new QueryClient();
 
@@ -26,5 +27,7 @@ const App = () => (
     </QueryClientProvider>
   </ThemeProvider>
 );
+<Route path="/billing" element={<Billing />} />
 
 export default App;
+Visual Studio Code
